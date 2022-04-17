@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>MAT BLOG</title>
+</head>
+
+<body>
+
+  <div class="small-container">
+    <h2>V, K cismi üzerine bir vektör uzayı olsun.
+         V üzerine diklik kavramını tanımlamak istiyoruz. Bunu şöyle yapmaya çalışalım:
+          Bir f:V×V⟶K fonksiyonu seçelim ve f(v,w)=0 ise v ile w vektörlerinin dik olduğunda anlaşalım. 
+          Bu diklik kavramının bir işe yaraması için, daha doğrusu diklik ile ilgili sezgilerimizle uyuşması için f'den bazı beklentilerimiz olmalı.
+
+        1. v'ye dik olan iki vektörün toplamı da v'ye dik olmalı. (Burada 3 boyulu uzayda düşünün.) Bu sorun f(v,w1+w2)=f(v,w1)+f(v,w2) eşitliğiyle çözülür.
+        
+        2. Eğer v, w'ye dikse, v'lerin katları da w'ye dik olmalı. Bu sorun f(αv,w)=αf(v,w) eşitliğiyle çözülür.
+        
+        3. Sezgilerimize göre v, w'ye dikse, w de v'ye dik olmalı. Yani f(v,w)=0 ise, f(w,v)=0 olmalı. Bu sorun f(v,w)=f(w,v) eşitliğiyle çözülür.
+        
+        Bu üç eşitliği sağlayan f:K×K⟶K fonksiyonlarına çifte lineer simetrik fonksiyonel adı verilir. 
+        Yukarıdaki koşullar sayesinde bir v vektörüne dik vektörler -olması gerektiği gibi- bir altuzay oluştururlar.
+        
+        4. 0 vektörü dışında hiçbir vektör tüm vektörlere dik olmamalıdır. (Kendi dahil her vektöre dik vektörler gereksizdir.
+         Onlar olmasa da olur.) Bu da f(v,V)=0⟹v=0 önermesiyle çözülür. 
+        Bu koşulu sağlayan çifte lineer simetrik fonksiyonellere dejenere olmayan çifte lineer fonksiyonel adı verilir.
+        
+        5. Eğer bir g ve f çifte lineer fonksiyonnel bir u∈AutK(V) için f(v,w)=g(u(v),u(w)) eşitliğini sağlıyorsa, özünde,
+         g ile f arasında bir fark yoktur. Bu tür fonksiyonellere birbirine denk diyelim. Bu, gerçekten bir denklik ilişkisidir.
+        
+        Soru: Verilmiş bir V vektör uzayı için, çifte lineer simetrik ve dejenere olmayan fonksiyonların denklik sınıflarını bul.
+        
+        Bu soru V'nin boyutu ve K'ya göre değişir. K=R ise ve V'nin boyutu n ise yanıt n+1'dir. Eğer K=C ise ya da cebirsel kapalı herhangi bir
+         cisimse, hatta her elemanının karekökü olan bir cisimse yanıt hep 1'dir. Eğer K=Fq karakteristiği 2 olmayan sonlu bir cisimse yanıt 2'dir. 
+         K'nın kesirli sayılar kümesi olduğu durum için herhangi bir orta seviyede sayılar kuramı kitabına bakabilirsin. 
+         Ama genel olarak sorunun yanıtı bilinmemektedir ve çok zordur. 
+        
+        Eğer ayrıca iki vektörün ne derece dik olduklarını anlamakistiyorsan, yani f(v,w)'nin ne kadar 0'a yakın olduğunu bilmek istiyorsan, 
+        o zaman K'nın sıralı bir cisim olması gerekir.
+        
+        6. Eğer K sıralı bir cisimde ve her v≠0 için f(v,v)>0 oluyorsa, f'ye pozitif form denir. Gerçel sayılar kümesi üzerine sonsuz tane pozitif form vardır, ama hepsi birbirine denktir.
+         Bunlardan biri de hepimizin liseden beri bildiği Öklid geometrisinin formudur.
+        
+        Bütün bunlardan çıkan ilginç felsefi sonuç: Diklik kavramı mutlak değildir, seçilen f'ye (daha doğrusu denklik sınıfına) göre değişir.
+    </h2>
+
+
+  </div>
